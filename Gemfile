@@ -40,6 +40,7 @@ group :development, :test do
 
   gem "factory_bot", "~> 6.4"
   gem "rspec-rails", "~> 6.1"
+  gem 'shoulda-matchers', '~> 6.0'
 
   # Static analysis for security vulnerabilities [https://brakemanscanner.org/]
   gem "brakeman", require: false
