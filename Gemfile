@@ -39,7 +39,7 @@ group :development, :test do
   gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
 
   gem "factory_bot", "~> 6.4"
-  gem "rspec-rails", "~> 6.1"
+  gem "rspec-rails", "~> 7.0"
   gem 'shoulda-matchers', '~> 6.0'
 
   # Static analysis for security vulnerabilities [https://brakemanscanner.org/]
