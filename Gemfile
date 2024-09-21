@@ -52,3 +52,9 @@ group :development do
 end
 
 
+gem "tailwindcss-rails", "~> 2.7"
+
+gem "shadcn-ui", "~> 0.0.15"
+
+
+gem "rack-cors", "~> 2.0"

@@ -23,3 +23,9 @@
 #   # Report violations without enforcing the policy.
 #   # config.content_security_policy_report_only = true
 # end
+
+Rails.application.config.content_security_policy do |policy|
+  policy.connect_src :self, :https, "http://localhost:3000", "ws://localhost:3000", "wss://localhost:3000", "https://*.githubpreview.dev", "wss://*.githubpreview.dev"
+end
+
+Rails.application.config.action_controller.allow_forgery_protection = false

@@ -1,0 +1,5 @@
+<%# form with file input %>
+<%= form_tag("/", multipart: true) do %>
+    <%= file_field_tag 'file' %>
+    <%= render_button text: "Upload" %>
+<% end %>
